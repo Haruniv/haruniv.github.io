@@ -110,7 +110,8 @@ comments: true
   provider: # [disqus | utterances | giscus]
   # The provider options are as follows:
   disqus:
-    shortname: 'harus-blog' 
+    shortname: 'harus-blog'
+    layout: default
   # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
   # utterances settings › https://utteranc.es/
   utterances:
