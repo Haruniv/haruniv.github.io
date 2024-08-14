@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Haru's Blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2024-08-14T17:08:46+09:00</updated>
+  <updated>2024-08-14T18:46:04+09:00</updated>
   <author>
     <name>haruniv</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>첫 포스팅 작성하기</title>
+    <link href="http://localhost:4000/posts/first-send/" rel="alternate" type="text/html" title="첫 포스팅 작성하기" />
+    <published>2021-10-03T20:10:00+09:00</published>
+  
+    <updated>2021-10-03T20:10:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/first-send/</id>
+    <content src="http://localhost:4000/posts/first-send/" />
+    <author>
+      <name>Dodev 하다</name>
+    </author>
+
+  
+    
+    <category term="GitHub Blog" />
+    
+  
+
+  <summary>첫 글</summary>
+
+  </entry>
 
 </feed>
 
