@@ -45,7 +45,7 @@
 <meta name="twitter:site" content="@twitter_username" />
 <meta name="twitter:creator" content="@Dodev 하다" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Dodev 하다"},"dateModified":"2021-10-03T20:10:00+09:00","datePublished":"2021-10-03T20:10:00+09:00","description":"첫 글","headline":"첫 포스팅 작성하기","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/first-send/"},"url":"http://localhost:4000/posts/first-send/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Dodev 하다"},"dateModified":"2024-08-14T18:47:11+09:00","datePublished":"2021-10-03T20:10:00+09:00","description":"첫 글","headline":"첫 포스팅 작성하기","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/first-send/"},"url":"http://localhost:4000/posts/first-send/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -482,6 +482,29 @@
 
       <!-- lastmod date -->
       
+        <span>
+          Updated
+          <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1723628831"
+  data-df="ll"
+  
+    data-bs-toggle="tooltip" data-bs-placement="bottom"
+  
+>
+  Aug 14, 2024
+</time>
+
+        </span>
+      
 
       
 
@@ -642,6 +665,7 @@
     <!-- .post-tail-bottom -->
   </div>
   <!-- div.post-tail-wrapper -->
+</article>
 
 <script src="https://utteranc.es/client.js"
         repo="Haruniv/haruniv.github.io"
@@ -650,9 +674,6 @@
         crossorigin="anonymous"
         async>
 </script>
-
-
-</article>
 
 
             
@@ -861,6 +882,51 @@
             
               
               <!-- The comments switcher -->
+
+  
+  <!-- https://utteranc.es/ -->
+<script
+  src="https://utteranc.es/client.js"
+  repo="Haruniv/haruniv.github.io"
+  issue-term="pathname"
+  crossorigin="anonymous"
+  async
+></script>
+
+<script type="text/javascript">
+  (function () {
+    const origin = 'https://utteranc.es';
+    const lightTheme = 'github-light';
+    const darkTheme = 'github-dark';
+    let initTheme = lightTheme;
+    const html = document.documentElement;
+
+    if (
+      (html.hasAttribute('data-mode') && html.getAttribute('data-mode') === 'dark') ||
+      (!html.hasAttribute('data-mode') && window.matchMedia('(prefers-color-scheme: dark)').matches)
+    ) {
+      initTheme = darkTheme;
+    }
+
+    addEventListener('message', (event) => {
+      let theme;if (event.origin === origin) {theme = initTheme;
+      } else if (event.source === window && event.data && event.data.direction === ModeToggle.ID) {const mode = event.data.message;
+        theme = mode === ModeToggle.DARK_MODE ? darkTheme : lightTheme;
+      } else {
+        return;
+      }
+
+      const message = {
+        type: 'set-theme',
+        theme: theme
+      };
+
+      const utterances = document.getElementsByClassName('utterances-frame')[0].contentWindow;
+      utterances.postMessage(message, origin);
+    });
+  })();
+</script>
+
 
 
             
