@@ -33,7 +33,7 @@ jobs:
       
       - uses: actions/setup-node@v3
         with:
-          node-version: "17"
+          node-version: "18"
 
       - run: npm install
 
@@ -49,46 +49,34 @@ jobs:
           commit_message: "[배포] Notion 변경 사항 저장"
           branch: main
           commit_user_name: importer-bot 🤖
-          commit_user_email: actions@github.com
-          commit_author: importer-bot 🤖 <actions@github.com>
+          commit_user_email: harunivv@gmail.com
+          commit_author: importer-bot 🤖 <harunivv@gmail.com>
  
-  build:
-    needs: importer
+        build:
     runs-on: ubuntu-latest
-
-    steps:           
+    steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
         with:
-          ref: main
-          fetch-depth: 1
-          # submodules: true
-          # If using the 'assets' git submodule from Chirpy Starter, uncomment above
-          # (See: https://github.com/cotes2020/chirpy-starter/tree/main/assets)
+          ruby-version: "3.2"
+          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+          cache-version: 0 # Increment this number if you need to re-download cached gems
 
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v3
 
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@8575951200e472d5f2d95c625da0c7bec8217c42
-        with:
-          ruby-version: '3.3' # reads from a '.ruby-version' or '.tools-version' file if 'ruby-version' is omitted
-          bundler-cache: true
-          cache-version: 0
-      - name: Build site
-        run: bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}"
+      - name: Build with Jekyll
+        run: bundle exec jekyll build --baseurl "${ { steps.pages.outputs.base_path } }"
         env:
           JEKYLL_ENV: production
 
       - name: Upload artifact
-        run: |
-          bundle exec htmlproofer _site --disable-external --check-html --allow_hash_href
+        uses: actions/upload-pages-artifact@v2
 
-      - name: Upload site artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: "_site${{ steps.pages.outputs.base_path }}"
 
   deploy:
     environment:
