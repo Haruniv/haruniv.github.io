@@ -1,12 +1,13 @@
 ---
 layout: post
 date: 2024-08-17
-title: "test1"
-tags: [Github Actions, ]
-categories: [Gitblog Notion, DevOps, Development, ]
+title: "Erste-mark-down-1"
+tags: [GitBlog, Git Action, Life, ]
+categories: [Gitblog Notion, DevOps, Development, Haru, ]
 ---
 
-Kapitel 1. Erste Begrüßung. Hallo,
+
+## Kapitel 1. Erste Begrüßung. Hallo<?>
 
 
 Ich bin sehr nervös, weil ich meinen ersten Beitrag schreibe.
@@ -18,15 +19,24 @@ Ich habe beschlossen, einen Blog für mich selbst zu erstellen, auf den ich mich
 Als ich darüber nachdachte, wie ich das anstellen sollte, kamen mir ein paar Dinge in den Sinn.
 
 
-Erstens: „eine Menge Koreanisch weglassen“.
-Da ich Korea ohnehin verlassen werde, scheint das eine gute Idee zu sein.
+
+#### Erstens: „eine Menge Koreanisch weglassen“.
 
 
-Zweitens habe ich beschlossen, mich so kurz wie möglich zu fassen.
+Da ich Korea ohnehin verlassen werde, scheint das eine gute Idee zu sein..
+
+
+
+#### Zweitens habe ich beschlossen, mich so kurz wie möglich zu fassen.
+
+
 Ich mache mir Sorgen darüber, wie ich meine Arbeit in Zukunft schreiben werde. Ha-
 
 
-Drittens höre ich auf, Technik-Blogs zu schreiben, in denen ich etwas vorführe.
+
+#### Drittens höre ich auf, Technik-Blogs zu schreiben, in denen ich etwas vorführe.
+
+
 Nun, die Zahl der Besucher wird gering sein, aber ich habe darüber nachgedacht und beschlossen, mich selbst hineinzuversetzen.
 
 
