@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2024-08-17
-title: "Erste-mark-down-1"
+title: "erste-mark-down-1"
 tags: [GitBlog, Git Action, Life, ]
 categories: [Gitblog Notion, DevOps, Development, Haru, ]
 ---
