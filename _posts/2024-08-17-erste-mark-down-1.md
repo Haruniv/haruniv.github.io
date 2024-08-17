@@ -3,7 +3,7 @@ layout: post
 date: 2024-08-17
 title: "첫 글"
 tags: [GitBlog, Git Action, Life]
-categories: [Haru, notion]
+categories: [Haru, Einführung]
 ---
 
 
