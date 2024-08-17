@@ -29,7 +29,7 @@ github:
   username: haruniv # change to your github username
 
 twitter:
-  username: twitter_username # change to your twitter username
+  username: harunivv # change to your twitter username
 
 social:
   # Change to your full name.
@@ -40,6 +40,7 @@ social:
     # The first element serves as the copyright owner's link
     # -  #change to your twitter homepage
     - https://github.com/Haruniv # change to your github homepage
+    - https://x.com/harunivv
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
