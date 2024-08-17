@@ -36,5 +36,8 @@ Ich dachte mir: „Wenn es interessant ist, wird es vielleicht eine Menge Enthus
 
 Der erste Beitrag endete so Auf Wiedersehen.
 
-
-<blockquote class="twitter-tweet" data-lang="en" data-dnt="true"><p lang="en" dir="ltr">I didn&#39;t realize the Twitter API changed to a paid plan...<br>What the... <a href="https://t.co/RnQVp4v4u6">pic.twitter.com/RnQVp4v4u6</a></p>&mdash; harunivv (@harunivv) <a href="https://twitter.com/harunivv/status/1824804580338831540?ref_src=twsrc%5Etfw">August 17, 2024</a></blockquote>
+#### twitter 1 commit & push
+<blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ko" dir="ltr">[𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭] 다만 아주 가끔 기억해 주시오
+<a href="https://t.co/btfw3BJeMg">https://t.co/btfw3BJeMg</a> via <a href="https://twitter.com/YouTube?ref_src=twsrc%5Etfw">@YouTube</a>
+<br><br>좋아하는 플리가 생겼다.<br>오늘은 카페에서 이 플리와 시간을 보냈다.<br><br>exactly my style 😎</p>&mdash; harunivv (@harunivv) 
+<a href="https://twitter.com/harunivv/status/1824818209629106396?ref_src=twsrc%5Etfw">August 17, 2024</a></blockquote>
