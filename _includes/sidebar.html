@@ -57,10 +57,10 @@
       {% case entry.type %}
         {% when 'github', 'twitter' %}
           {%- capture url -%}
-	  {% if twitter == twitter %}
+	  {% if entry.type == twitter %}
             https://x.com/{{ site[entry.type].username }}
 	  {%endif%}
-	  {% if github == github %}
+	  {% if entry.type == github %}
             https://{{ entry.type }}a.com/{{ site[entry.type].username }}
           {%endif%} 
           {%- endcapture -%}
