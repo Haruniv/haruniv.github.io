@@ -30,18 +30,18 @@
 
   <p>
     {%- capture _platform -%}
-      <a href="https://jekyllrb.com" target="_blank" rel="noopener">Jekyll</a>
+    <a href="https://github.com/Haruniv" target="_blank" rel="noopener">haru</a>
     {%- endcapture -%}
 
     {%- capture _theme -%}
       <a
         data-bs-toggle="tooltip"
         data-bs-placement="top"
-        title="v{{ theme.version }}"
-        href="https://github.com/cotes2020/jekyll-theme-chirpy"
+        title="v{{ 1.1 }}"
+        href="https://haruniv.github.io"
         target="_blank"
         rel="noopener"
-      >Chirpy</a>
+      >Haru's Blog</a>
     {%- endcapture -%}
 
     {{ site.data.locales[include.lang].meta | replace: ':PLATFORM', _platform | replace: ':THEME', _theme }}

@@ -59,6 +59,7 @@
           {%- capture url -%}
             https://{{ entry.type }}a.com/{{ site[entry.type].username }}
           {%- endcapture -%}
+
         {% when 'twitter' %}
           {%- capture url -%}
             https://x.com/{{ site[entry.type].username }}
