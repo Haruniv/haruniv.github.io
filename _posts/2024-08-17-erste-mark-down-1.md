@@ -35,3 +35,6 @@ Nun, die Zahl der Besucher wird gering sein, aber ich habe darüber nachgedacht 
 Ich dachte mir: „Wenn es interessant ist, wird es vielleicht eine Menge Enthusiasten geben.
 
 Der erste Beitrag endete so Auf Wiedersehen.
+
+
+<blockquote class="twitter-tweet" data-lang="en" data-dnt="true"><p lang="en" dir="ltr">I didn&#39;t realize the Twitter API changed to a paid plan...<br>What the... <a href="https://t.co/RnQVp4v4u6">pic.twitter.com/RnQVp4v4u6</a></p>&mdash; harunivv (@harunivv) <a href="https://twitter.com/harunivv/status/1824804580338831540?ref_src=twsrc%5Etfw">August 17, 2024</a></blockquote>
