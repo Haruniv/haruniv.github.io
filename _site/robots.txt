@@ -2,4 +2,4 @@ User-agent: *
 
 Disallow: /norobots/
 
-Sitemap: https://haruniv.github.io:4000/sitemap.xml
+Sitemap: https://haruniv.github.io/sitemap.xml
