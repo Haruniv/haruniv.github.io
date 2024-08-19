@@ -1,8 +1,10 @@
 ---
+published : false
 layout: post
 date: 2024-08-19
 title: "AWS Certificate"
 tags: [AWS, SAA-C03, SAA]
+
 categories: [AWS, Certi]
 ---
 
